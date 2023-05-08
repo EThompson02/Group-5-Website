@@ -1,0 +1,185 @@
+/* Main stylesheet */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* NAV BAR */
+.navbar-collapse {
+    justify-content: space-between;
+  }
+  
+.navbar-brand {
+    margin-right: 10px;
+  }
+  
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.profile-img {
+  padding-top: 40px;
+  width: 150px;
+  height: 190px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 300px;
+}
+
+.form-group h1 {
+  text-align: center;
+}
+
+.btn-dark {
+  width: 100%;
+  max-width: 140px;
+}
+
+.custom-form-group {
+  width: 450px;
+}
+
+.col-md-6 {
+	width: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+  
+ .container.signup-container {
+  max-width: 70%;
+}
+
+.container.rounded {
+  max-width: 50%;
+}
+
+.rounded {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*tracking*/
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #dc3545;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+  .done .circle {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+.progress-bottom-padding {
+    margin-bottom: 20px;
+  }
+  
+  .btn-with-padding {
+    padding: 10px 20px;
+  }
+	
+
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #8E8E8E, #E80202);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.card-img-top {
+  width: 250px;
+  height: 225px;
+  border: none;
+}
+
+.custom-card img {
+    max-width: 60%; /* adjust the percentage as per your requirement */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tracking-container {
+	padding-top: 20px;
+	padding-bottom: 250px;
+}
+
+.flag-image{
+	width: 24px;
+	height: 24px;
+}
+
+
+
+
+
+
+
